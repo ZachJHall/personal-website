@@ -42,12 +42,12 @@ body {
 @media only screen and (min-width: 814px) {
   #bio-menu {
     float: left;
-    width: 34.2vw;
+    width: 30.2vw;
     height: 100vh;
   }
   #project-menu {
     float: right;
-    width: 64vw;
+    width: 68vw;
     height: 100vh;
   }
 }
