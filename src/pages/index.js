@@ -1,6 +1,7 @@
 import React from "react"
 import "../css/index.css"
 import ProjectCard from '../components/projectCard'
+import Contact from '../components/contact'
 import ChihuahuaRescueMidwest from "../images/chihuahuaRescueMidwestImage.png"
 
 const IndexPage = () => {
@@ -17,7 +18,7 @@ const IndexPage = () => {
             <a href="https://placeholder.com"><img id="logo" src="https://via.placeholder.com/150" /></a>
             <h1>Zach Hall</h1>
             <p>Computer Science student at SEMO</p>
-
+            <Contact />
 
           </div>
 
