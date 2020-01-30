@@ -55,5 +55,6 @@ body {
   }
   .project-menu-info  {
     display: inline-block;
+    padding-left: 7vw /* If there are more than 2 projects keep this, else delete*/
   }
 }

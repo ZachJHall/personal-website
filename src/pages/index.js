@@ -28,6 +28,9 @@ const IndexPage = () => {
           <div class="project-menu-info">
             <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
             <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
+            <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
+            <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
+
           </div>
         </div>
 
