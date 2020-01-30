@@ -1,27 +1,38 @@
 import React from "react"
-import Layout from '../components/layout'
-import Contact from '../components/contact';
-import "../css/index.css";
-import Header from '../components/header'
 
 const IndexPage = () => {
   return (
-    <Layout>
-    <Header />
-    <div class="index-content">
+    <div class="container">
 
-      <div class="short-biography">
+      <div class="columns">
 
-        <a target="_blank" rel="noopener noreferrer" href="https://placeholder.com"><img id = "user-image" src="https://via.placeholder.com/150" alt="Website owner headshot"/></a>
-        <h1>I'm Zach Hall</h1>
-        <h2>A Computer Science student at <a target="_blank" rel="noopener noreferrer" href="https://semo.edu/">SEMO</a></h2>
-      </div>
+        <div id="bio-menu">
+          <h1>Bio</h1>
 
-      <Contact />
+          <div class="bio-menu-info">
+
+            <a href="https://placeholder.com"><img id="logo" src="https://via.placeholder.com/150" /></a>
+            <h1>Zach Hall</h1>
+            <p>Computer Science student at SEMO</p>
+
+
+          </div>
+
+
+
+
+
+        </div>
+
+        <div id="project-menu">
+          <h1>Project</h1>
+        </div>
+
+
 
     </div>
+  </div>
 
-    </Layout>
   )
 }
 
