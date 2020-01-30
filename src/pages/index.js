@@ -1,6 +1,7 @@
 import React from "react"
 import "../css/index.css"
-
+import ProjectCard from '../components/projectCard'
+import Image1 from "/home/jake/Downloads/barnaby.jpg"
 
 const IndexPage = () => {
   return (
@@ -11,6 +12,7 @@ const IndexPage = () => {
         <div id="bio-menu">
           <h1>Bio</h1>
 
+
           <div class="bio-menu-info">
 
             <a href="https://placeholder.com"><img id="logo" src="https://via.placeholder.com/150" /></a>
@@ -20,14 +22,11 @@ const IndexPage = () => {
 
           </div>
 
-
-
-
-
         </div>
 
         <div id="project-menu">
-          <h1>Project</h1>
+          <h1>Projects</h1>
+          <ProjectCard image={Image1} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
         </div>
 
 
