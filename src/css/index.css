@@ -45,6 +45,9 @@ body {
     width: 30.2vw;
     height: 100vh;
   }
+  .bio-menu-info {
+    padding-top:  25vh;
+  }
   #project-menu {
     float: right;
     width: 68vw;

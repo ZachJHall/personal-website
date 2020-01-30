@@ -10,7 +10,6 @@ const IndexPage = () => {
       <div class="columns">
 
         <div id="bio-menu">
-          <h1>Bio</h1>
 
 
           <div class="bio-menu-info">
