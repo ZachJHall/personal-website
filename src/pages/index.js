@@ -1,7 +1,7 @@
 import React from "react"
 import "../css/index.css"
 import ProjectCard from '../components/projectCard'
-import Image1 from "/home/jake/Downloads/barnaby.jpg"
+import Image1 from "../images/barnaby.jpg"
 
 const IndexPage = () => {
   return (
