@@ -23,4 +23,9 @@
     height: auto;
     max-width: 800px;
   }
+  #project-card-div {
+    width: 25vw;
+    float:left;
+    padding-right: 2vw;
+  }
 }
