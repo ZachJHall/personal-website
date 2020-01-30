@@ -1,7 +1,7 @@
 import React from "react"
 import "../css/index.css"
 import ProjectCard from '../components/projectCard'
-import Image1 from "../images/barnaby.jpg"
+import ChihuahuaRescueMidwest from "../images/chihuahuaRescueMidwestImage.png"
 
 const IndexPage = () => {
   return (
@@ -25,8 +25,8 @@ const IndexPage = () => {
 
         <div id="project-menu">
           <h1>Projects</h1>
-          <ProjectCard image={Image1} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
-          <ProjectCard image={Image1} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
+          <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
+          <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue"  age="20" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
 
         </div>
 

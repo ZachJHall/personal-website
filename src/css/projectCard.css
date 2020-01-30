@@ -4,10 +4,23 @@
 
 }
 
+#project-card-image {
+  width: 100%;
+  height: auto;
+}
+
 #project-card-description {
 
 }
 
 #project-card-title {
-  
+
+}
+
+@media only screen and (min-width: 814px) {
+  #project-card-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+  }
 }
