@@ -15,7 +15,7 @@ const IndexPage = () => {
 
           <div class="bio-menu-info">
 
-            <a href="https://placeholder.com"><img id="logo" src="https://via.placeholder.com/150" /></a>
+            
             <h1>Zach Hall</h1>
             <p>Computer Science student at SEMO</p>
             <Contact />
