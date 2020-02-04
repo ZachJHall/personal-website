@@ -18,6 +18,7 @@ const IndexPage = () => {
 
             <h1>Zach Hall</h1>
             <p>Computer Science student at SEMO</p>
+            <button class="resume-button">Resume</button>
             <Contact />
 
           </div>
