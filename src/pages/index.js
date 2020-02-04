@@ -3,6 +3,7 @@ import "../css/index.css"
 import ProjectCard from '../components/projectCard'
 import Contact from '../components/contact'
 import ChihuahuaRescueMidwest from "../images/chihuahuaRescueMidwestImage.png"
+import Resume from '../components/ZachHall_Resume_For_Website.pdf'
 
 const IndexPage = () => {
   return (
@@ -18,7 +19,7 @@ const IndexPage = () => {
 
             <h1>Zach Hall</h1>
             <p>Computer Science student at SEMO</p>
-            <button class="resume-button">Resume</button>
+            <a target="_blank" rel="noopener noreferrer" href= {Resume}><button class="resume-button">Resume</button></a>
             <Contact />
 
           </div>
