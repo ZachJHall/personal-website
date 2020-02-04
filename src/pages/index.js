@@ -15,7 +15,7 @@ const IndexPage = () => {
 
           <div class="bio-menu-info">
 
-            
+
             <h1>Zach Hall</h1>
             <p>Computer Science student at SEMO</p>
             <Contact />
@@ -27,9 +27,6 @@ const IndexPage = () => {
         <div id="project-menu">
           <h1>Projects</h1>
           <div class="project-menu-info">
-            <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
-            <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
-            <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
             <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
 
           </div>
