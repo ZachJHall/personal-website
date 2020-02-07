@@ -30,8 +30,8 @@ const IndexPage = () => {
         <div id="project-menu">
           <h1>Projects</h1>
           <div class="project-menu-info">
-            <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
-            <ProjectCard image={DigitalPaintBoard} title="Digital Paint Board" description="A website that allows for the user to paint on a digital paint board"/>
+            <ProjectCard image={ChihuahuaRescueMidwest} url= "https://www.chihuahuarescuemidwest.org/" title="Chihuahua Rescue" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
+            <ProjectCard image={DigitalPaintBoard} url= "https://zachjhall.github.io/digital-paint-board/" title="Digital Paint Board" description="A website that allows the user to paint on a digital paint board"/>
 
           </div>
         </div>

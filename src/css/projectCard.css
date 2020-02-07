@@ -4,6 +4,14 @@
 
 }
 
+#project-card-div a:visited {
+  color: inherit;
+}
+
+#project-card-div a:hover {
+  color: white;
+}
+
 #project-card-image {
   width: 100%;
   height: auto;
