@@ -3,6 +3,7 @@ import "../css/index.css"
 import ProjectCard from '../components/projectCard'
 import Contact from '../components/contact'
 import ChihuahuaRescueMidwest from "../images/chihuahuaRescueMidwestImage.png"
+import DigitalPaintBoard from '../images/digital-paint-board.png'
 import Resume from '../components/ZachHall_Resume_For_Website.pdf'
 
 const IndexPage = () => {
@@ -30,6 +31,7 @@ const IndexPage = () => {
           <h1>Projects</h1>
           <div class="project-menu-info">
             <ProjectCard image={ChihuahuaRescueMidwest} title="Chihuahua Rescue" description="A website built for Chihuahua Rescue, a dog rescue in St.Louis Missouri"/>
+            <ProjectCard image={DigitalPaintBoard} title="Digital Paint Board" description="A website that allows for the user to paint on a digital paint board"/>
 
           </div>
         </div>
