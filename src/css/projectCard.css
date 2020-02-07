@@ -3,9 +3,12 @@
   font-weight: bold;
 
 }
+#project-card-div a:link {
+  color: #889bad;
+}
 
 #project-card-div a:visited {
-  color: inherit;
+  color: #889bad;
 }
 
 #project-card-div a:hover {
