@@ -1,7 +1,18 @@
 #project-card-div {
-  color: #889bad;
+  color: black;
   font-weight: bold;
 
+}
+#project-card-div a:link {
+  color: #00887A;
+}
+
+#project-card-div a:visited {
+  color: #00887A;
+}
+
+#project-card-div a:hover {
+  color: #77A6F7;
 }
 
 #project-card-image {
