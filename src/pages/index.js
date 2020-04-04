@@ -19,7 +19,7 @@ const IndexPage = () => {
 
 
             <h1>Zach Hall</h1>
-            <p>Computer Science student at SEMO</p>
+            {/* <p>Computer Science student at SEMO</p>  */}
             <a target="_blank" rel="noopener noreferrer" href= {Resume}><button class="resume-button">Resume</button></a>
             <Contact />
 
